@@ -1,5 +1,7 @@
 # vocus
 
+![vocus demo](docs/demo.gif)
+
 Tiny, fast, minimal, extensible native HTML viewer for Linux (GTK3 + WebKit2GTK).
 
 vocus is a **dumb frame**: it renders supplied HTML as-is. No Markdown, no
