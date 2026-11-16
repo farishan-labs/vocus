@@ -8,7 +8,8 @@ their own HTML and pipe it in.
 
 ## Requirements
 
-- Ubuntu 22.04+ (X11)
+- Tested on Ubuntu 22.04+ (X11). Other distros may work; if you need help,
+  open an issue at https://github.com/farishan-labs/vocus/issues.
 - Python 3.10+
 - GTK 3 + WebKit2GTK 4.0
 
@@ -21,7 +22,7 @@ Install deps:
 ## Install
 
 ```bash
-pip install -e .
+curl -fsSL https://farishan-labs.github.io/vocus/install.sh | bash
 ```
 
 ## Usage
