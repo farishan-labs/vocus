@@ -1,0 +1,30 @@
+schema: spec-driven
+
+context: |
+  Project: vocus — tiny, fast, minimal, extensible native HTML viewer (Faris Han Labs).
+  Tech: Python 3.10+, GTK3 + WebKit2GTK 4.0/4.1; no Markdown/Mermaid logic (dumb frame).
+  Constraints: fullscreen borderless, Esc close, auto light/dark, stdin/--html/--title.
+  Platform: Ubuntu 22.04+ (X11). Packaging: pip editable, console script `vocus`.
+  Consumed by mdview and future flowview via piping rendered HTML.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always state what is out of scope
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vocus"
+version = "0.1.0"
+description = "Tiny native HTML viewer (GTK3 + WebKit2GTK). Dumb frame: renders supplied HTML as-is."
+requires-python = ">=3.10"
+
+[project.scripts]
+vocus = "vocus.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
