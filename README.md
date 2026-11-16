@@ -34,6 +34,11 @@ vocus --html report.html --title "Report"
 Keyboard: `Esc` closes the window. Fullscreen, borderless. Auto light/dark
 theme based on system preference.
 
+## Used by
+
+- [mdview](https://github.com/farishan-labs/mdview) — native Markdown viewer (renders Markdown to HTML, pipes to vocus).
+- flowview (planned) — Mermaid/flow viewer (Pele → HTML, pipes to vocus).
+
 ## License
 
 GPL-3.0 (consistent with mdview).
