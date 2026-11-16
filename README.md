@@ -6,7 +6,7 @@ vocus is a **dumb frame**: it renders supplied HTML as-is. No Markdown, no
 Mermaid, no TOC/search logic. Content producers (mdview, flowview, ...) render
 their own HTML and pipe it in.
 
-## Install (end users)
+## Install
 
 ```bash
 curl -fsSL https://farishan-labs.github.io/vocus/install.sh | bash
@@ -46,8 +46,7 @@ pip install -e .
 ### Used by
 
 - [mdview](https://github.com/farishan-labs/mdview) — native Markdown viewer (renders Markdown to HTML, pipes to vocus).
-- flowview (planned) — Mermaid/flow viewer (Pele → HTML, pipes to vocus).
 
 ## License
 
-GPL-3.0 (consistent with mdview).
+GPL-3.0.
